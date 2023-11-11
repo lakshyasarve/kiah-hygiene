@@ -1,0 +1,15 @@
+.faq-image{
+    width: 80%;
+}
+
+.faq-heading{
+    font-family: 'Edensor', sans-serif;
+    font-size: 100px;
+    color: #f5f0ed;
+    margin-bottom: 80px;
+}
+
+.faq-subheading{
+    font-family: 'Effra', sans-serif;
+    color: var(--primary-color);
+}

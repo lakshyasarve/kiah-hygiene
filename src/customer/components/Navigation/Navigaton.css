@@ -1,0 +1,76 @@
+.navigation{
+    min-height: 135px;
+}
+
+
+/* Css of Navigation starts here */
+
+.top-discount-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Effra',  sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding: 6px 0px;
+    background-color: var(--primary-color);
+}
+
+.discount-bold{
+    font-family: 'Effra',  sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+   margin: 6px 5px 0px 5px;
+   
+}
+
+
+/* here starts the actual menu  */
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 20px 0px ;
+
+}
+
+
+.nav-menu{
+    width: 55%;
+    gap: 50px;
+}
+
+.nav-menu img{
+    width: 20%;
+}
+
+.nav-links-centered{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    font-family: 'Effra',  sans-serif;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.other-menu{
+    gap: 30px;
+}
+
+.nav-icon{
+    color: #939fa4;
+    cursor: pointer;
+}
+
+.cart-value{
+    font-family: 'Effra',  sans-serif;
+    color: #939fa4;
+    cursor: pointer;
+}

@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0e5df;
 }
 
 code {
@@ -17,3 +18,115 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Edensor";
+  src: url("/public/fonts/Edensor.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Effra";
+  src: url("/public/fonts/Effra_Std_Rg.ttf") format("ttf");
+}
+
+/* Initial Setup */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #27404a;
+  --secondary-color: #b56866;
+  --text-color: #000000;
+  --text-color-light: #f0e5df;
+  --padding-inline-section: 20px;
+  --hover-color: #102731;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  font-family: 'Edensor', sans-serif;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  line-height: 1.8rem;
+}
+
+/* utility classes */
+
+.small-bold-text{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container{
+  max-width: 1300px;
+  margin-inline: auto;
+  padding-inline: 0;
+  overflow: hidden;
+}
+
+.split-container-child-1{
+  width: 50%;
+  padding-right: 50px;
+}
+.split-container-child-2{
+  width: 50%;
+  padding-left: 50px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.hover-links{
+  color: var(--primary-color);
+  transition: 0.2s ease-out;
+  font-weight: 500;
+}
+
+.hover-links:hover{
+  color: var(--hover-color);
+}
+
+.primary-button{
+  border: 2px solid var(--primary-color);
+  padding: 6px 20px;
+  border-radius: 6px;
+  color: var(--text-color-light);
+  background-color: var(--primary-color);
+  transition: 0.5s ease;
+}
+
+.primary-button:hover{
+  background-color: var(--hover-color);
+  transform: translateY(-5px);
+  transition: 0.5s ease;
+}
+
+.secondary-button{
+  border: 2px solid var(--primary-color);
+  padding: 6px 20px;
+  border-radius: 6px;
+  transition: 0.5s ease;
+}
+
+.secondary-button:hover{
+  background-color: var(--hover-color);
+  color: var(--text-color-light);
+  transform: translateY(-5px);
+  transition: 0.5s ease;
+ 
+}
+

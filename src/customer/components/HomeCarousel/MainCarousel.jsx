@@ -1,7 +1,7 @@
 // import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { MainCarouselData } from './MainCarouselData';
+import { NewCarouselData } from './NewCarouselData';
 
 // const responsive = {
 //     0: { items: 1 },
@@ -11,7 +11,7 @@ import { MainCarouselData } from './MainCarouselData';
 
 const MainCarousel = () => {
 
-    const items = MainCarouselData.map((item)=> <img key='' className='cursor-pointer -z-10' role='presentation' src={item.image}alt=''/>)
+    const items = NewCarouselData.map((item)=> <img key='' className='cursor-pointer' role='presentation' src={item.image}alt=''/>)
 
     return(
     <AliceCarousel
@@ -19,7 +19,7 @@ const MainCarousel = () => {
         items={items}
         disableButtonsControls
         autoPlay
-        autoPlayInterval={1000}
+        autoPlayInterval={3000}
         infinite
         // responsive={responsive}
         controlsStrategy="alternate"

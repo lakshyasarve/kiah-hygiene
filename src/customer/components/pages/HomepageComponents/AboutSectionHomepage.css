@@ -1,0 +1,20 @@
+.homepage-about-heading{
+    font-family: 'Edensor', sans-serif;
+    font-size: 50px;
+    color: var(--secondary-color);
+}
+
+.homepage-about-divider{
+    width: 45%;
+    border: 1px solid #ccadab;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.homepage-about-subheading{
+    font-family: 'Effra', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--primary-color);
+    line-height: 1.3;
+}

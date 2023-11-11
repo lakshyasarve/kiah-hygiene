@@ -8,9 +8,9 @@ const OrderCard = () => {
       <Grid container spacing={2} sx={{justifyContent:"space-between"}}>
         <Grid item xs={6}>
             <div className="flex cursor-pointer">
-                <img className='w-[5rem] h-[5rem] object-cover object-top' src="https://images.unsplash.com/photo-1568252748074-f9c8d964e834?auto=format&fit=crop&q=80&w=1904&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                <img className='w-[5rem] h-[5rem] object-cover object-top' src="/images/product/product-1.png" alt="" />
                 <div className="ml-5">
-                    <p>Men Slim Mid Rise Black Jeans</p>
+                    <p>Pant Style Diapers</p>
                     <p className='opacity-50 text-xs font-semibold'>Size: M</p>
                     <p className='opacity-50 text-xs font-semibold'>Color: Black</p>
                 </div>

@@ -9,13 +9,13 @@ const CartItem = () => {
     <div className="p-5 shadow-lg border rounded-md">
       <div className="flex items-center">
         <div className="w-[5rem] h-[5rem] lg:w-[9rem] lg:h-[9rem]">
-            <img className="w-full h-full object-cover object-top" src="https://plus.unsplash.com/premium_photo-1669703777695-f8052a432411?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className="w-full h-full object-cover object-top" src="/images/product/product-1.png" alt="" />
         </div>
 
         <div className="ml-5 space-y-1">
-            <p className="font-semibold">Men Slim Mid Rise Black Jeans</p>
+            <p className="font-semibold">Pant Style Diapers</p>
             <p className="opacity-70">Size: L,White</p>
-            <p className="opacity-70 mt-2">Seller: Crishtaliyo 2fashion</p>
+            <p className="opacity-70 mt-2">Seller: Sefora</p>
             <div className="flex space-x-5 items-center text-gray-900 pt-6">
               <p className='font-semibold'>$199</p>
               <p className='opacity-50 line-through'>$150</p>
